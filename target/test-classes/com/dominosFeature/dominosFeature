@@ -1,0 +1,52 @@
+Feature: Validate a food order functionality in domino's pizza application
+      Scenario: Recommended page
+      Given: User Launch the Domino's pizza Url
+      When: User Add to pizza in Add to card field
+      And: User add to add field
+      And: User click the Checkout field
+      Then: User click the checkout button and in navigate to place order page
+      Scenario:place order page
+      Then: User click the place order button and navigate to Add Address Page
+      Scenario: Add Address page
+      When: User enter the name in first name field
+      And: User enter the name in last name field 
+      And: User enter the mobile number in mobile no. field
+      And: User enter the email in email address field 
+      And: User enter the address in address field 
+      And: User enter the house number in house no. field 
+      Then: User click the Save and Continue button and navigate to payment page
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
